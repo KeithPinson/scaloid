@@ -1,0 +1,650 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+        <head>
+          <title>ConstantsSupport - scaloid 1.1_8_2.10 API - org.scaloid.common.ConstantsSupport</title>
+          <meta name="description" content="ConstantsSupport - scaloid 1.1 8 2.10 API - org.scaloid.common.ConstantsSupport" />
+          <meta name="keywords" content="ConstantsSupport scaloid 1.1 8 2.10 API org.scaloid.common.ConstantsSupport" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../../lib/template.js"></script>
+      <script type="text/javascript" src="../../../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../index.html';
+            var hash = 'org.scaloid.common.package$$ConstantsSupport';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="type">
+      <div id="definition">
+        <img src="../../../lib/trait_big.png" />
+        <p id="owner"><a href="../../package.html" class="extype" name="org">org</a>.<a href="../package.html" class="extype" name="org.scaloid">scaloid</a>.<a href="package.html" class="extype" name="org.scaloid.common">common</a></p>
+        <h1>ConstantsSupport</h1>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ConstantsSupport</span><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"><div class="toggleContainer block">
+          <span class="toggle">Linear Supertypes</span>
+          <div class="superTypes hiddenContent"><span class="extype" name="scala.AnyRef">AnyRef</span>, <span class="extype" name="scala.Any">Any</span></div>
+        </div><div class="toggleContainer block">
+          <span class="toggle">Known Subclasses</span>
+          <div class="subClasses hiddenContent"><a href="WidgetFamily$RichAbsSeekBar.html" class="extype" name="org.scaloid.common.WidgetFamily.RichAbsSeekBar">RichAbsSeekBar</a>, <a href="WidgetFamily$RichAnalogClock.html" class="extype" name="org.scaloid.common.WidgetFamily.RichAnalogClock">RichAnalogClock</a>, <a href="WidgetFamily$RichAppWidgetHostView.html" class="extype" name="org.scaloid.common.WidgetFamily.RichAppWidgetHostView">RichAppWidgetHostView</a>, <a href="WidgetFamily$RichAutoCompleteTextView.html" class="extype" name="org.scaloid.common.WidgetFamily.RichAutoCompleteTextView">RichAutoCompleteTextView</a>, <a href="WidgetFamily$RichButton.html" class="extype" name="org.scaloid.common.WidgetFamily.RichButton">RichButton</a>, <a href="WidgetFamily$RichCheckBox.html" class="extype" name="org.scaloid.common.WidgetFamily.RichCheckBox">RichCheckBox</a>, <a href="WidgetFamily$RichCheckedTextView.html" class="extype" name="org.scaloid.common.WidgetFamily.RichCheckedTextView">RichCheckedTextView</a>, <a href="WidgetFamily$RichChronometer.html" class="extype" name="org.scaloid.common.WidgetFamily.RichChronometer">RichChronometer</a>, <a href="WidgetFamily$RichCompoundButton.html" class="extype" name="org.scaloid.common.WidgetFamily.RichCompoundButton">RichCompoundButton</a>, <a href="WidgetFamily$RichDatePicker.html" class="extype" name="org.scaloid.common.WidgetFamily.RichDatePicker">RichDatePicker</a>, <a href="WidgetFamily$RichDigitalClock.html" class="extype" name="org.scaloid.common.WidgetFamily.RichDigitalClock">RichDigitalClock</a>, <a href="WidgetFamily$RichEditText.html" class="extype" name="org.scaloid.common.WidgetFamily.RichEditText">RichEditText</a>, <a href="WidgetFamily$RichExpandableListView.html" class="extype" name="org.scaloid.common.WidgetFamily.RichExpandableListView">RichExpandableListView</a>, <a href="WidgetFamily$RichExtractEditText.html" class="extype" name="org.scaloid.common.WidgetFamily.RichExtractEditText">RichExtractEditText</a>, <a href="WidgetFamily$RichFrameLayout.html" class="extype" name="org.scaloid.common.WidgetFamily.RichFrameLayout">RichFrameLayout</a>, <a href="WidgetFamily$RichGLSurfaceView.html" class="extype" name="org.scaloid.common.WidgetFamily.RichGLSurfaceView">RichGLSurfaceView</a>, <a href="WidgetFamily$RichGallery.html" class="extype" name="org.scaloid.common.WidgetFamily.RichGallery">RichGallery</a>, <a href="WidgetFamily$RichGestureOverlayView.html" class="extype" name="org.scaloid.common.WidgetFamily.RichGestureOverlayView">RichGestureOverlayView</a>, <a href="WidgetFamily$RichGridView.html" class="extype" name="org.scaloid.common.WidgetFamily.RichGridView">RichGridView</a>, <a href="WidgetFamily$RichHorizontalScrollView.html" class="extype" name="org.scaloid.common.WidgetFamily.RichHorizontalScrollView">RichHorizontalScrollView</a>, <a href="WidgetFamily$RichImageButton.html" class="extype" name="org.scaloid.common.WidgetFamily.RichImageButton">RichImageButton</a>, <a href="WidgetFamily$RichImageSwitcher.html" class="extype" name="org.scaloid.common.WidgetFamily.RichImageSwitcher">RichImageSwitcher</a>, <a href="WidgetFamily$RichImageView.html" class="extype" name="org.scaloid.common.WidgetFamily.RichImageView">RichImageView</a>, <a href="WidgetFamily$RichKeyboardView.html" class="extype" name="org.scaloid.common.WidgetFamily.RichKeyboardView">RichKeyboardView</a>, <a href="WidgetFamily$RichLinearLayout.html" class="extype" name="org.scaloid.common.WidgetFamily.RichLinearLayout">RichLinearLayout</a>, <a href="WidgetFamily$RichListView.html" class="extype" name="org.scaloid.common.WidgetFamily.RichListView">RichListView</a>, <a href="WidgetFamily$RichMediaController.html" class="extype" name="org.scaloid.common.WidgetFamily.RichMediaController">RichMediaController</a>, <a href="WidgetFamily$RichMultiAutoCompleteTextView.html" class="extype" name="org.scaloid.common.WidgetFamily.RichMultiAutoCompleteTextView">RichMultiAutoCompleteTextView</a>, <a href="WidgetFamily$RichProgressBar.html" class="extype" name="org.scaloid.common.WidgetFamily.RichProgressBar">RichProgressBar</a>, <a href="WidgetFamily$RichQuickContactBadge.html" class="extype" name="org.scaloid.common.WidgetFamily.RichQuickContactBadge">RichQuickContactBadge</a>, <a href="WidgetFamily$RichRadioButton.html" class="extype" name="org.scaloid.common.WidgetFamily.RichRadioButton">RichRadioButton</a>, <a href="WidgetFamily$RichRatingBar.html" class="extype" name="org.scaloid.common.WidgetFamily.RichRatingBar">RichRatingBar</a>, <a href="WidgetFamily$RichRelativeLayout.html" class="extype" name="org.scaloid.common.WidgetFamily.RichRelativeLayout">RichRelativeLayout</a>, <a href="WidgetFamily$RichScrollView.html" class="extype" name="org.scaloid.common.WidgetFamily.RichScrollView">RichScrollView</a>, <a href="WidgetFamily$RichSeekBar.html" class="extype" name="org.scaloid.common.WidgetFamily.RichSeekBar">RichSeekBar</a>, <a href="WidgetFamily$RichSpinner.html" class="extype" name="org.scaloid.common.WidgetFamily.RichSpinner">RichSpinner</a>, <a href="WidgetFamily$RichSurfaceView.html" class="extype" name="org.scaloid.common.WidgetFamily.RichSurfaceView">RichSurfaceView</a>, <a href="WidgetFamily$RichTabHost.html" class="extype" name="org.scaloid.common.WidgetFamily.RichTabHost">RichTabHost</a>, <a href="WidgetFamily$RichTextSwitcher.html" class="extype" name="org.scaloid.common.WidgetFamily.RichTextSwitcher">RichTextSwitcher</a>, <a href="WidgetFamily$RichTextView.html" class="extype" name="org.scaloid.common.WidgetFamily.RichTextView">RichTextView</a>, <a href="WidgetFamily$RichTimePicker.html" class="extype" name="org.scaloid.common.WidgetFamily.RichTimePicker">RichTimePicker</a>, <a href="WidgetFamily$RichToggleButton.html" class="extype" name="org.scaloid.common.WidgetFamily.RichToggleButton">RichToggleButton</a>, <a href="WidgetFamily$RichVideoView.html" class="extype" name="org.scaloid.common.WidgetFamily.RichVideoView">RichVideoView</a>, <a href="WidgetFamily$RichView.html" class="extype" name="org.scaloid.common.WidgetFamily.RichView">RichView</a>, <a href="WidgetFamily$RichViewAnimator.html" class="extype" name="org.scaloid.common.WidgetFamily.RichViewAnimator">RichViewAnimator</a>, <a href="WidgetFamily$RichViewFlipper.html" class="extype" name="org.scaloid.common.WidgetFamily.RichViewFlipper">RichViewFlipper</a>, <a href="WidgetFamily$RichViewGroup.html" class="extype" name="org.scaloid.common.WidgetFamily.RichViewGroup">RichViewGroup</a>, <a href="WidgetFamily$RichViewStub.html" class="extype" name="org.scaloid.common.WidgetFamily.RichViewStub">RichViewStub</a>, <a href="WidgetFamily$RichViewSwitcher.html" class="extype" name="org.scaloid.common.WidgetFamily.RichViewSwitcher">RichViewSwitcher</a>, <a href="WidgetFamily$RichZoomButton.html" class="extype" name="org.scaloid.common.WidgetFamily.RichZoomButton">RichZoomButton</a>, <a href="WidgetFamily$SAnalogClock.html" class="extype" name="org.scaloid.common.WidgetFamily.SAnalogClock">SAnalogClock</a>, <a href="WidgetFamily$SAutoCompleteTextView.html" class="extype" name="org.scaloid.common.WidgetFamily.SAutoCompleteTextView">SAutoCompleteTextView</a>, <a href="WidgetFamily$SButton.html" class="extype" name="org.scaloid.common.WidgetFamily.SButton">SButton</a>, <a href="WidgetFamily$SCheckBox.html" class="extype" name="org.scaloid.common.WidgetFamily.SCheckBox">SCheckBox</a>, <a href="WidgetFamily$SCheckedTextView.html" class="extype" name="org.scaloid.common.WidgetFamily.SCheckedTextView">SCheckedTextView</a>, <a href="WidgetFamily$SChronometer.html" class="extype" name="org.scaloid.common.WidgetFamily.SChronometer">SChronometer</a>, <a href="WidgetFamily$SDatePicker.html" class="extype" name="org.scaloid.common.WidgetFamily.SDatePicker">SDatePicker</a>, <a href="WidgetFamily$SDigitalClock.html" class="extype" name="org.scaloid.common.WidgetFamily.SDigitalClock">SDigitalClock</a>, <a href="WidgetFamily$SEditText.html" class="extype" name="org.scaloid.common.WidgetFamily.SEditText">SEditText</a>, <a href="WidgetFamily$SExpandableListView.html" class="extype" name="org.scaloid.common.WidgetFamily.SExpandableListView">SExpandableListView</a>, <a href="WidgetFamily$SExtractEditText.html" class="extype" name="org.scaloid.common.WidgetFamily.SExtractEditText">SExtractEditText</a>, <a href="WidgetFamily$SFrameLayout.html" class="extype" name="org.scaloid.common.WidgetFamily.SFrameLayout">SFrameLayout</a>, <a href="WidgetFamily$SGLSurfaceView.html" class="extype" name="org.scaloid.common.WidgetFamily.SGLSurfaceView">SGLSurfaceView</a>, <a href="WidgetFamily$SGallery.html" class="extype" name="org.scaloid.common.WidgetFamily.SGallery">SGallery</a>, <a href="WidgetFamily$SGestureOverlayView.html" class="extype" name="org.scaloid.common.WidgetFamily.SGestureOverlayView">SGestureOverlayView</a>, <a href="WidgetFamily$SGridView.html" class="extype" name="org.scaloid.common.WidgetFamily.SGridView">SGridView</a>, <a href="WidgetFamily$SHorizontalScrollView.html" class="extype" name="org.scaloid.common.WidgetFamily.SHorizontalScrollView">SHorizontalScrollView</a>, <a href="WidgetFamily$SImageButton.html" class="extype" name="org.scaloid.common.WidgetFamily.SImageButton">SImageButton</a>, <a href="WidgetFamily$SImageSwitcher.html" class="extype" name="org.scaloid.common.WidgetFamily.SImageSwitcher">SImageSwitcher</a>, <a href="WidgetFamily$SImageView.html" class="extype" name="org.scaloid.common.WidgetFamily.SImageView">SImageView</a>, <a href="WidgetFamily$SLinearLayout.html" class="extype" name="org.scaloid.common.WidgetFamily.SLinearLayout">SLinearLayout</a>, <a href="WidgetFamily$SListView.html" class="extype" name="org.scaloid.common.WidgetFamily.SListView">SListView</a>, <a href="WidgetFamily$SMediaController.html" class="extype" name="org.scaloid.common.WidgetFamily.SMediaController">SMediaController</a>, <a href="WidgetFamily$SMultiAutoCompleteTextView.html" class="extype" name="org.scaloid.common.WidgetFamily.SMultiAutoCompleteTextView">SMultiAutoCompleteTextView</a>, <a href="WidgetFamily$SProgressBar.html" class="extype" name="org.scaloid.common.WidgetFamily.SProgressBar">SProgressBar</a>, <a href="WidgetFamily$SQuickContactBadge.html" class="extype" name="org.scaloid.common.WidgetFamily.SQuickContactBadge">SQuickContactBadge</a>, <a href="WidgetFamily$SRadioButton.html" class="extype" name="org.scaloid.common.WidgetFamily.SRadioButton">SRadioButton</a>, <a href="WidgetFamily$SRatingBar.html" class="extype" name="org.scaloid.common.WidgetFamily.SRatingBar">SRatingBar</a>, <a href="WidgetFamily$SRelativeLayout.html" class="extype" name="org.scaloid.common.WidgetFamily.SRelativeLayout">SRelativeLayout</a>, <a href="WidgetFamily$SScrollView.html" class="extype" name="org.scaloid.common.WidgetFamily.SScrollView">SScrollView</a>, <a href="WidgetFamily$SSeekBar.html" class="extype" name="org.scaloid.common.WidgetFamily.SSeekBar">SSeekBar</a>, <a href="WidgetFamily$SSpinner.html" class="extype" name="org.scaloid.common.WidgetFamily.SSpinner">SSpinner</a>, <a href="WidgetFamily$SSurfaceView.html" class="extype" name="org.scaloid.common.WidgetFamily.SSurfaceView">SSurfaceView</a>, <a href="WidgetFamily$STabHost.html" class="extype" name="org.scaloid.common.WidgetFamily.STabHost">STabHost</a>, <a href="WidgetFamily$STextSwitcher.html" class="extype" name="org.scaloid.common.WidgetFamily.STextSwitcher">STextSwitcher</a>, <a href="WidgetFamily$STextView.html" class="extype" name="org.scaloid.common.WidgetFamily.STextView">STextView</a>, <a href="WidgetFamily$STimePicker.html" class="extype" name="org.scaloid.common.WidgetFamily.STimePicker">STimePicker</a>, <a href="WidgetFamily$SToggleButton.html" class="extype" name="org.scaloid.common.WidgetFamily.SToggleButton">SToggleButton</a>, <a href="WidgetFamily$SVerticalLayout.html" class="extype" name="org.scaloid.common.WidgetFamily.SVerticalLayout">SVerticalLayout</a>, <a href="WidgetFamily$SVideoView.html" class="extype" name="org.scaloid.common.WidgetFamily.SVideoView">SVideoView</a>, <a href="WidgetFamily$SViewAnimator.html" class="extype" name="org.scaloid.common.WidgetFamily.SViewAnimator">SViewAnimator</a>, <a href="WidgetFamily$SViewFlipper.html" class="extype" name="org.scaloid.common.WidgetFamily.SViewFlipper">SViewFlipper</a>, <a href="WidgetFamily$SViewSwitcher.html" class="extype" name="org.scaloid.common.WidgetFamily.SViewSwitcher">SViewSwitcher</a>, <a href="WidgetFamily$SZoomButton.html" class="extype" name="org.scaloid.common.WidgetFamily.SZoomButton">SZoomButton</a>, <a href="WidgetFamily$TraitAbsListView.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitAbsListView">TraitAbsListView</a>, <a href="WidgetFamily$TraitAbsSeekBar.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitAbsSeekBar">TraitAbsSeekBar</a>, <a href="WidgetFamily$TraitAbsSpinner.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitAbsSpinner">TraitAbsSpinner</a>, <a href="WidgetFamily$TraitAdapterView.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitAdapterView">TraitAdapterView</a>, <a href="WidgetFamily$TraitAnalogClock.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitAnalogClock">TraitAnalogClock</a>, <a href="WidgetFamily$TraitAppWidgetHostView.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitAppWidgetHostView">TraitAppWidgetHostView</a>, <a href="WidgetFamily$TraitAutoCompleteTextView.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitAutoCompleteTextView">TraitAutoCompleteTextView</a>, <a href="WidgetFamily$TraitButton.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitButton">TraitButton</a>, <a href="WidgetFamily$TraitCheckBox.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitCheckBox">TraitCheckBox</a>, <a href="WidgetFamily$TraitCheckedTextView.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitCheckedTextView">TraitCheckedTextView</a>, <a href="WidgetFamily$TraitChronometer.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitChronometer">TraitChronometer</a>, <a href="WidgetFamily$TraitCompoundButton.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitCompoundButton">TraitCompoundButton</a>, <a href="WidgetFamily$TraitDatePicker.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitDatePicker">TraitDatePicker</a>, <a href="WidgetFamily$TraitDigitalClock.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitDigitalClock">TraitDigitalClock</a>, <a href="WidgetFamily$TraitEditText.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitEditText">TraitEditText</a>, <a href="WidgetFamily$TraitExpandableListView.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitExpandableListView">TraitExpandableListView</a>, <a href="WidgetFamily$TraitExtractEditText.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitExtractEditText">TraitExtractEditText</a>, <a href="WidgetFamily$TraitFrameLayout.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitFrameLayout">TraitFrameLayout</a>, <a href="WidgetFamily$TraitGLSurfaceView.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitGLSurfaceView">TraitGLSurfaceView</a>, <a href="WidgetFamily$TraitGallery.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitGallery">TraitGallery</a>, <a href="WidgetFamily$TraitGestureOverlayView.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitGestureOverlayView">TraitGestureOverlayView</a>, <a href="WidgetFamily$TraitGridView.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitGridView">TraitGridView</a>, <a href="WidgetFamily$TraitHorizontalScrollView.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitHorizontalScrollView">TraitHorizontalScrollView</a>, <a href="WidgetFamily$TraitImageButton.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitImageButton">TraitImageButton</a>, <a href="WidgetFamily$TraitImageSwitcher.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitImageSwitcher">TraitImageSwitcher</a>, <a href="WidgetFamily$TraitImageView.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitImageView">TraitImageView</a>, <a href="WidgetFamily$TraitKeyboardView.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitKeyboardView">TraitKeyboardView</a>, <a href="WidgetFamily$TraitLinearLayout.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitLinearLayout">TraitLinearLayout</a>, <a href="WidgetFamily$TraitListView.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitListView">TraitListView</a>, <a href="WidgetFamily$TraitMediaController.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitMediaController">TraitMediaController</a>, <a href="WidgetFamily$TraitMultiAutoCompleteTextView.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitMultiAutoCompleteTextView">TraitMultiAutoCompleteTextView</a>, <a href="WidgetFamily$TraitProgressBar.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitProgressBar">TraitProgressBar</a>, <a href="WidgetFamily$TraitQuickContactBadge.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitQuickContactBadge">TraitQuickContactBadge</a>, <a href="WidgetFamily$TraitRadioButton.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitRadioButton">TraitRadioButton</a>, <a href="WidgetFamily$TraitRatingBar.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitRatingBar">TraitRatingBar</a>, <a href="WidgetFamily$TraitRelativeLayout.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitRelativeLayout">TraitRelativeLayout</a>, <a href="WidgetFamily$TraitScrollView.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitScrollView">TraitScrollView</a>, <a href="WidgetFamily$TraitSeekBar.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitSeekBar">TraitSeekBar</a>, <a href="WidgetFamily$TraitSpinner.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitSpinner">TraitSpinner</a>, <a href="WidgetFamily$TraitSurfaceView.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitSurfaceView">TraitSurfaceView</a>, <a href="WidgetFamily$TraitTabHost.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitTabHost">TraitTabHost</a>, <a href="WidgetFamily$TraitTextSwitcher.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitTextSwitcher">TraitTextSwitcher</a>, <a href="WidgetFamily$TraitTextView.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitTextView">TraitTextView</a>, <a href="WidgetFamily$TraitTimePicker.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitTimePicker">TraitTimePicker</a>, <a href="WidgetFamily$TraitToggleButton.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitToggleButton">TraitToggleButton</a>, <a href="WidgetFamily$TraitVideoView.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitVideoView">TraitVideoView</a>, <a href="WidgetFamily$TraitView.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitView">TraitView</a>, <a href="WidgetFamily$TraitViewAnimator.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitViewAnimator">TraitViewAnimator</a>, <a href="WidgetFamily$TraitViewFlipper.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitViewFlipper">TraitViewFlipper</a>, <a href="WidgetFamily$TraitViewGroup.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitViewGroup">TraitViewGroup</a>, <a href="WidgetFamily$TraitViewStub.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitViewStub">TraitViewStub</a>, <a href="WidgetFamily$TraitViewSwitcher.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitViewSwitcher">TraitViewSwitcher</a>, <a href="WidgetFamily$TraitZoomButton.html" class="extype" name="org.scaloid.common.WidgetFamily.TraitZoomButton">TraitZoomButton</a></div>
+        </div></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        <div id="order">
+              <span class="filtertype">Ordering</span>
+              <ol>
+                
+                <li class="alpha in"><span>Alphabetic</span></li>
+                <li class="inherit out"><span>By inheritance</span></li>
+              </ol>
+            </div>
+        <div id="ancestors">
+                <span class="filtertype">Inherited<br />
+                </span>
+                <ol id="linearization">
+                  <li class="in" name="org.scaloid.common.ConstantsSupport"><span>ConstantsSupport</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
+                </ol>
+              </div><div id="ancestors">
+            <span class="filtertype"></span>
+            <ol>
+              <li class="hideall out"><span>Hide All</span></li>
+              <li class="showall in"><span>Show all</span></li>
+            </ol>
+            <a href="http://docs.scala-lang.org/overviews/scaladoc/usage.html#members" target="_blank">Learn more about member selection</a>
+          </div>
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="scala.AnyRef#!=" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="!=(x$1:AnyRef):Boolean"></a>
+      <a id="!=(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $bang$eq" class="name">!=</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.AnyRef">AnyRef</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.Any#!=" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="!=(x$1:Any):Boolean"></a>
+      <a id="!=(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $bang$eq" class="name">!=</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="scala.AnyRef###" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="##():Int"></a>
+      <a id="##():Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $hash$hash" class="name">##</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.AnyRef#==" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="==(x$1:AnyRef):Boolean"></a>
+      <a id="==(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $eq$eq" class="name">==</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.AnyRef">AnyRef</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.Any#==" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="==(x$1:Any):Boolean"></a>
+      <a id="==(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $eq$eq" class="name">==</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="org.scaloid.common.ConstantsSupport#NONE" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="NONE:Int"></a>
+      <a id="NONE:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">NONE</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.scaloid.common.ConstantsSupport#TEXT" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TEXT:Int"></a>
+      <a id="TEXT:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">TEXT</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.scaloid.common.ConstantsSupport#TEXT_AUTO_COMPLETE" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TEXT_AUTO_COMPLETE:Int"></a>
+      <a id="TEXT_AUTO_COMPLETE:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">TEXT_AUTO_COMPLETE</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.scaloid.common.ConstantsSupport#TEXT_AUTO_CORRECT" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TEXT_AUTO_CORRECT:Int"></a>
+      <a id="TEXT_AUTO_CORRECT:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">TEXT_AUTO_CORRECT</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.scaloid.common.ConstantsSupport#TEXT_CAP_CHARACTERS" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TEXT_CAP_CHARACTERS:Int"></a>
+      <a id="TEXT_CAP_CHARACTERS:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">TEXT_CAP_CHARACTERS</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.scaloid.common.ConstantsSupport#TEXT_CAP_SENTENCES" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TEXT_CAP_SENTENCES:Int"></a>
+      <a id="TEXT_CAP_SENTENCES:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">TEXT_CAP_SENTENCES</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.scaloid.common.ConstantsSupport#TEXT_CAP_WORDS" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TEXT_CAP_WORDS:Int"></a>
+      <a id="TEXT_CAP_WORDS:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">TEXT_CAP_WORDS</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.scaloid.common.ConstantsSupport#TEXT_EMAIL_ADDRESS" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TEXT_EMAIL_ADDRESS:Int"></a>
+      <a id="TEXT_EMAIL_ADDRESS:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">TEXT_EMAIL_ADDRESS</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.scaloid.common.ConstantsSupport#TEXT_EMAIL_SUBJECT" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TEXT_EMAIL_SUBJECT:Int"></a>
+      <a id="TEXT_EMAIL_SUBJECT:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">TEXT_EMAIL_SUBJECT</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.scaloid.common.ConstantsSupport#TEXT_IME_MULTI_LINE" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TEXT_IME_MULTI_LINE:Int"></a>
+      <a id="TEXT_IME_MULTI_LINE:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">TEXT_IME_MULTI_LINE</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.scaloid.common.ConstantsSupport#TEXT_LONG_MESSAGE" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TEXT_LONG_MESSAGE:Int"></a>
+      <a id="TEXT_LONG_MESSAGE:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">TEXT_LONG_MESSAGE</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.scaloid.common.ConstantsSupport#TEXT_MULTI_LINE" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TEXT_MULTI_LINE:Int"></a>
+      <a id="TEXT_MULTI_LINE:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">TEXT_MULTI_LINE</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.scaloid.common.ConstantsSupport#TEXT_NO_SUGGESTIONS" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TEXT_NO_SUGGESTIONS:Int"></a>
+      <a id="TEXT_NO_SUGGESTIONS:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">TEXT_NO_SUGGESTIONS</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.scaloid.common.ConstantsSupport#TEXT_PASSWORD" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TEXT_PASSWORD:Int"></a>
+      <a id="TEXT_PASSWORD:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">TEXT_PASSWORD</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.scaloid.common.ConstantsSupport#TEXT_PERSON_NAME" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TEXT_PERSON_NAME:Int"></a>
+      <a id="TEXT_PERSON_NAME:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">TEXT_PERSON_NAME</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.scaloid.common.ConstantsSupport#TEXT_POSTAL_ADDRESS" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TEXT_POSTAL_ADDRESS:Int"></a>
+      <a id="TEXT_POSTAL_ADDRESS:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">TEXT_POSTAL_ADDRESS</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.scaloid.common.ConstantsSupport#TEXT_SHORT_MESSAGE" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TEXT_SHORT_MESSAGE:Int"></a>
+      <a id="TEXT_SHORT_MESSAGE:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">TEXT_SHORT_MESSAGE</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="org.scaloid.common.ConstantsSupport#TEXT_URI" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TEXT_URI:Int"></a>
+      <a id="TEXT_URI:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">TEXT_URI</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.Any#asInstanceOf" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="asInstanceOf[T0]:T0"></a>
+      <a id="asInstanceOf[T0]:T0"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">asInstanceOf</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="result">: <span class="extype" name="scala.Any.asInstanceOf.T0">T0</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="scala.AnyRef#clone" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="clone():Object"></a>
+      <a id="clone():AnyRef"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">clone</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../../../java$lang.html" class="extype" name="java.lang">java.lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#eq" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="eq(x$1:AnyRef):Boolean"></a>
+      <a id="eq(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">eq</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.AnyRef">AnyRef</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#equals" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="equals(x$1:Any):Boolean"></a>
+      <a id="equals(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">equals</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.AnyRef#finalize" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="finalize():Unit"></a>
+      <a id="finalize():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">finalize</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../../../java$lang.html" class="extype" name="java.lang">java.lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#getClass" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="getClass():Class[_]"></a>
+      <a id="getClass():Class[_]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">getClass</span><span class="params">()</span><span class="result">: <span class="extype" name="java.lang.Class">Class</span>[_]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.AnyRef#hashCode" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="hashCode():Int"></a>
+      <a id="hashCode():Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">hashCode</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.Any#isInstanceOf" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="isInstanceOf[T0]:Boolean"></a>
+      <a id="isInstanceOf[T0]:Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">isInstanceOf</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="scala.AnyRef#ne" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ne(x$1:AnyRef):Boolean"></a>
+      <a id="ne(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ne</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.AnyRef">AnyRef</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#notify" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="notify():Unit"></a>
+      <a id="notify():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">notify</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#notifyAll" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="notifyAll():Unit"></a>
+      <a id="notifyAll():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">notifyAll</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#synchronized" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="synchronized[T0](x$1:=&gt;T0):T0"></a>
+      <a id="synchronized[T0](⇒T0):T0"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">synchronized</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="params">(<span name="arg0">arg0: ⇒ <span class="extype" name="java.lang.AnyRef.synchronized.T0">T0</span></span>)</span><span class="result">: <span class="extype" name="java.lang.AnyRef.synchronized.T0">T0</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#toString" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="toString():String"></a>
+      <a id="toString():String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">toString</span><span class="params">()</span><span class="result">: <span class="extype" name="java.lang.String">String</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait():Unit"></a>
+      <a id="wait():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait(x$1:Long,x$2:Int):Unit"></a>
+      <a id="wait(Long,Int):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Long">Long</span></span>, <span name="arg1">arg1: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait(x$1:Long):Unit"></a>
+      <a id="wait(Long):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Long">Long</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        <div class="parent" name="scala.AnyRef">
+              <h3>Inherited from <span class="extype" name="scala.AnyRef">AnyRef</span></h3>
+            </div><div class="parent" name="scala.Any">
+              <h3>Inherited from <span class="extype" name="scala.Any">Any</span></h3>
+            </div>
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>
